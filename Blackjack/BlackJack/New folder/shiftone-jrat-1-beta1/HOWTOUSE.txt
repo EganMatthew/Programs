@@ -1,0 +1,9 @@
+RUN YOUR PROGRAM:
+
+java -javaagent:shiftone-jrat.jar [your java ops] [main class]
+
+your java ops = -jar probably
+
+OUTPUT YOUR PROGRAM:
+
+java -Xmx256M -jar shiftone-jrat.jar
