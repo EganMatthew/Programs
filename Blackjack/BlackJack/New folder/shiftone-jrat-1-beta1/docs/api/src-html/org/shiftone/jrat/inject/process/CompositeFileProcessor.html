@@ -1,0 +1,117 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package org.shiftone.jrat.inject.process;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    <a name="line.3"></a>
+<FONT color="green">004</FONT>    import org.shiftone.jrat.inject.InjectorOptions;<a name="line.4"></a>
+<FONT color="green">005</FONT>    import org.shiftone.jrat.inject.bytecode.Transformer;<a name="line.5"></a>
+<FONT color="green">006</FONT>    import org.shiftone.jrat.util.io.IOUtil;<a name="line.6"></a>
+<FONT color="green">007</FONT>    import org.shiftone.jrat.util.log.Logger;<a name="line.7"></a>
+<FONT color="green">008</FONT>    <a name="line.8"></a>
+<FONT color="green">009</FONT>    import java.io.File;<a name="line.9"></a>
+<FONT color="green">010</FONT>    <a name="line.10"></a>
+<FONT color="green">011</FONT>    <a name="line.11"></a>
+<FONT color="green">012</FONT>    /**<a name="line.12"></a>
+<FONT color="green">013</FONT>     * @author jeff@shiftone.org (Jeff Drost)<a name="line.13"></a>
+<FONT color="green">014</FONT>     */<a name="line.14"></a>
+<FONT color="green">015</FONT>    public class CompositeFileProcessor implements FileProcessor {<a name="line.15"></a>
+<FONT color="green">016</FONT>    <a name="line.16"></a>
+<FONT color="green">017</FONT>        private static final Logger LOG = Logger.getLogger(CompositeFileProcessor.class);<a name="line.17"></a>
+<FONT color="green">018</FONT>        private final ClassFileProcessor classProcessor = new ClassFileProcessor();<a name="line.18"></a>
+<FONT color="green">019</FONT>        private final ArchiveFileProcessor archiveProcessor = new ArchiveFileProcessor();<a name="line.19"></a>
+<FONT color="green">020</FONT>        private final CopyFileProcessor fileProcessor = new CopyFileProcessor();<a name="line.20"></a>
+<FONT color="green">021</FONT>        private final DirectoryFileProcessor directoryProcessor = new DirectoryFileProcessor(this);<a name="line.21"></a>
+<FONT color="green">022</FONT>    <a name="line.22"></a>
+<FONT color="green">023</FONT>        public void process(Transformer transformer, InjectorOptions options, File source, File target) {<a name="line.23"></a>
+<FONT color="green">024</FONT>    <a name="line.24"></a>
+<FONT color="green">025</FONT>            LOG.info("process " + source.getAbsolutePath() + " =&gt; " + target.getAbsolutePath());<a name="line.25"></a>
+<FONT color="green">026</FONT>    <a name="line.26"></a>
+<FONT color="green">027</FONT>            String ext = IOUtil.getExtention(source);<a name="line.27"></a>
+<FONT color="green">028</FONT>    <a name="line.28"></a>
+<FONT color="green">029</FONT>            if (ext != null) {<a name="line.29"></a>
+<FONT color="green">030</FONT>                ext = ext.toLowerCase();<a name="line.30"></a>
+<FONT color="green">031</FONT>            }<a name="line.31"></a>
+<FONT color="green">032</FONT>    <a name="line.32"></a>
+<FONT color="green">033</FONT>            LOG.debug("ext = &gt;" + ext + "&lt;");<a name="line.33"></a>
+<FONT color="green">034</FONT>    <a name="line.34"></a>
+<FONT color="green">035</FONT>            if (source.isDirectory()) {<a name="line.35"></a>
+<FONT color="green">036</FONT>                LOG.debug("directoryProcessor");<a name="line.36"></a>
+<FONT color="green">037</FONT>                directoryProcessor.process(transformer, options, source, target);<a name="line.37"></a>
+<FONT color="green">038</FONT>            } else if ("class".equals(ext)) {<a name="line.38"></a>
+<FONT color="green">039</FONT>                LOG.debug("classProcessor");<a name="line.39"></a>
+<FONT color="green">040</FONT>                classProcessor.process(transformer, options, source, target);<a name="line.40"></a>
+<FONT color="green">041</FONT>            } else if (archiveProcessor.isArchiveExtention(ext)) {<a name="line.41"></a>
+<FONT color="green">042</FONT>                LOG.debug("archiveProcessor");<a name="line.42"></a>
+<FONT color="green">043</FONT>                archiveProcessor.process(transformer, options, source, target);<a name="line.43"></a>
+<FONT color="green">044</FONT>            } else {<a name="line.44"></a>
+<FONT color="green">045</FONT>                LOG.debug("copy");<a name="line.45"></a>
+<FONT color="green">046</FONT>                fileProcessor.processFile(transformer, source, target);<a name="line.46"></a>
+<FONT color="green">047</FONT>            }<a name="line.47"></a>
+<FONT color="green">048</FONT>        }<a name="line.48"></a>
+<FONT color="green">049</FONT>    <a name="line.49"></a>
+<FONT color="green">050</FONT>    <a name="line.50"></a>
+<FONT color="green">051</FONT>    }<a name="line.51"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

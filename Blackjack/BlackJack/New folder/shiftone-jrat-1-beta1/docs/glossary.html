@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>Glossary</title><link rel="stylesheet" href="static/shiftone.css" type="text/css"/></head><body><div class="header"><h1 class="header">ShiftOne </h1><h2 class="header"><a class="home" href="index.html">Java Runtime Analysis Toolkit</a></h2><a class="header" href="http://sourceforge.net/project/showfiles.php?group_id=41841&amp;package_id=33930">download</a><a class="header" href="http://sourceforge.net/forum/forum.php?forum_id=136869">forum</a><a class="header" href="http://jrat.wiki.sourceforge.net">wiki</a><a class="header" href="http://sourceforge.net/projects/jrat">sf.net</a><a class="header" href="api/index.html">api</a><a class="header" href="lesser.html">license</a></div><div class="content"><h1>Glossary</h1>
+
+    <p>
+        <h2>Statistics</h2>
+
+        <table class="definition"><tr class="definition"><td class="definition-key">Enters</td><td class="definition-value">
+                The total number of times that a method was entered.
+            </td></tr><tr class="definition"><td class="definition-key">Exits</td><td class="definition-value">
+                The total number of times that a method was exited. This includes
+                both normal returns as well as exceptions thrown. Note that this may
+                be less than Enters, if a thread enters a method but never gets a chance
+                to complete it.
+            </td></tr><tr class="definition"><td class="definition-key">Exceptions Thrown</td><td class="definition-value">
+                The total number of times that a method threw an exception to
+                it's caller.
+
+                This number will always be less than or equal to Exists.
+            </td></tr><tr class="definition"><td class="definition-key">Exception Rate</td><td class="definition-value">
+                This is the percentage of exits that were the result of an exception.
+            </td></tr><tr class="definition"><td class="definition-key">Uncompleted Calls</td><td class="definition-value">
+                The total number of times a thread entered a method but never existed.
+
+                This can happen if a method is never existed by the time the application exists,
+                or JRat captures the statistics.
+
+                This is simply
+                <i>Enters</i>
+                minus
+                <i>Exits</i>
+                .
+            </td></tr><tr class="definition"><td class="definition-key">Total ms</td><td class="definition-value">
+                The total number of milliseconds spent in a method. This includes time spent
+                in dependent methods.
+
+                This only includes method calls that were existed (for obvious reasons).
+            </td></tr><tr class="definition"><td class="definition-key">Min ms</td><td class="definition-value">
+                This is the fastest recorded time for the execution of a method.
+
+                This does include the time spent in dependent methods.
+            </td></tr><tr class="definition"><td class="definition-key">Max ms</td><td class="definition-value">
+                This is the slowest recorded time for the execution of a method.
+
+                This does include the time spent in dependent methods.
+            </td></tr><tr class="definition"><td class="definition-key">Average ms</td><td class="definition-value">
+                The average number of milliseconds spent in a method.
+                That is,
+                <i>Total ms</i>
+                divided by
+                <i>Exits</i>
+            </td></tr><tr class="definition"><td class="definition-key">Total Method ms</td><td class="definition-value">
+                This is one of the
+                <b>most interesting</b>
+                numbers for getting a high level
+                understanding of the performance soar spots in an application. It is the Total ms
+                of a method, minus the Total ms of all the instrumented methods that it calls.
+
+                (Note that if there are any
+                <i>Uncompleted Calls</i>
+                , then this value will not be shown,
+                since it's meaning is questionable and it may actually be negative.)
+            </td></tr><tr class="definition"><td class="definition-key">Average Method ms</td><td class="definition-value">
+                This is the average amount of time spent in a method, excluding time spent in
+                instrumented dependent (called) methods.
+
+                This is the
+                <i>Total Method ms</i>
+                divided by
+                <i>Exists</i>
+                .
+            </td></tr><tr class="definition"><td class="definition-key">Total Callers</td><td class="definition-value">
+                This is a somewhat complex value.
+
+                It represents the total observed contexts in which a method is called.
+
+                The higher this number, the more code depends on this method.
+
+                (Trace Tab)
+            </td></tr><tr class="definition"><td class="definition-key">Uncalled</td><td class="definition-value">
+                This is the total number of methods in a class or package that were instrumented
+                but never entered.
+
+                While JRat does not attempt to be a full coverage analysis tool, it does track
+                coverage at the method level (most coverage analysis tools track coverage at the
+                line level, which is better).
+
+                If a method is never called, and the application was fully tested,
+                it may be a candidate for removal.  (Hierarchy Tab)
+
+            </td></tr><tr class="definition"><td class="definition-key">Coverage %</td><td class="definition-value">
+                The percentage of instrumented methods that were entered at least once.
+
+                This is not line level coverage. (Hierarchy Tab)
+            </td></tr></table>
+
+
+    </p>
+
+</div><div class="footer">
+                    Copyright © 2007
+                    <br/>
+                    Generated 9/11/2007 10:44PM</div></body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"/><script type="text/javascript">
+            _uacct = "";
+            urchinTracker();
+            </script><a href="http://sourceforge.net"><img border="0" height="37" width="125" src="http://sourceforge.net/sflogo.php?group_id=41841&amp;type=3"/></a></html>

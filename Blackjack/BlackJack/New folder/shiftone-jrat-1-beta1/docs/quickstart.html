@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>JRat Quick Start Guide</title><link rel="stylesheet" href="static/shiftone.css" type="text/css"/></head><body><div class="header"><h1 class="header">ShiftOne </h1><h2 class="header"><a class="home" href="index.html">Java Runtime Analysis Toolkit</a></h2><a class="header" href="http://sourceforge.net/project/showfiles.php?group_id=41841&amp;package_id=33930">download</a><a class="header" href="http://sourceforge.net/forum/forum.php?forum_id=136869">forum</a><a class="header" href="http://jrat.wiki.sourceforge.net">wiki</a><a class="header" href="http://sourceforge.net/projects/jrat">sf.net</a><a class="header" href="api/index.html">api</a><a class="header" href="lesser.html">license</a></div><div class="content"><h1>JRat Quick Start Guide</h1>
+    <p>
+    If you are aren't using Java 5 yet, refer to <a href="prefive.html">these instructions</a>.
+       </p>
+    <p>
+    This document intends to be a first time walk through for developers new to JRat.
+       </p>
+    <p>
+        <h2>1. Let JRat Watch Your Program Run</h2>
+
+        <p>
+            If you're program runs in Java 5 or above, then this step is extremely easy.
+            You simply need to add a single argument to the java command that launches
+            your program.
+        </p>
+
+        <pre class="box terminal">java <b>-javaagent:shiftone-jrat.jar</b> [your java ops] [main class]</pre>
+
+        <p>
+            You now want to excersize your program's functionality as much as possible so
+            JRat can watch what happens and collect statistics.
+
+            The more times you run your code, the better the results will be.
+
+            It's ideal to have a autommated repeatable test script, but there is no
+            need to get fancy the first time you run JRat.
+        </p>
+
+        <p>
+            Shut down your program.
+
+            JRat will produce several files containing the data it collected.
+        </p>
+
+    </p>
+
+    <p>
+        <h2>2. View The JRat Results</h2>
+
+        <p>
+            After you shut down your application, JRat will create data files that
+            contain information about your program's execution.
+
+            JRat puts these files in a subdirectory under the directory from which your program ran.
+
+            This directory will be named something like jrat.output/2007-08-30_AM-08-02-44.
+        </p>
+
+        <p>
+            These data files are not human readable.
+
+            They require the JRat Desktop to open and analyze them.
+
+            The JRat Desktop is contained in the same jar file that was used in the first step.
+        </p>
+
+        <pre class="box terminal">java -Xmx256M -jar shiftone-jrat.jar</pre>
+
+        <p>
+            The JRat Desktop application will open, and you can use it to view the collected data.
+
+            To do this, select <b>File</b> then <b>Open</b> from the menu.
+
+            Navigate to the subdirectory of jrat.output and open a .jrat file.
+        </p>
+
+    </p>
+
+
+
+    If you want to know more about what just happened,
+    read <a href="howitworks.html">How It Works</a>.
+
+</div><div class="footer">
+                    Copyright © 2007
+                    <br/>
+                    Generated 9/11/2007 10:44PM</div></body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"/><script type="text/javascript">
+            _uacct = "";
+            urchinTracker();
+            </script><a href="http://sourceforge.net"><img border="0" height="37" width="125" src="http://sourceforge.net/sflogo.php?group_id=41841&amp;type=3"/></a></html>

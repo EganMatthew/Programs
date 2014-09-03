@@ -1,0 +1,124 @@
+#OFSTRATEGIES: 1
+
+HEADER:
+COUNT: 0
+
+    A 2 3 4 5 6 7 8 9 10
+05  H S S S S S S S S S
+06  S S S S S S S S S S
+07  S S S S S S S S S S
+08  S S S S S S S S S S
+09  S S S S S S S S S S
+10  S S S S S S S S S S
+11  S S S S S S S S S S
+12  S S S S S S S S S S
+13  S S S S S S S S S S
+14  S S S S S S S S S S
+15  S S S S S S S S S S
+16  S S S S S S S S S S
+17  S S S S S S S S S S
+18  S S S S S S S S S S
+19  S S S S S S S S S S
+20  S S S S S S S S S S
+21  S S S S S S S S S S
+A2  S S S S S S S S S S
+A3  S S S S S S S S S S
+A4  S S S S S S S S S S
+A5  S S S S S S S S S S
+A6  S S S S S S S S S S
+A7  S S S S S S S S S S
+A8  S S S S S S S S S S
+A9  S S S S S S S S S S
+AT  S S S S S S S S S S
+AA  S S S S S S S S S S
+22  S S S S S S S S S S
+33  S S S S S S S S S S
+44  S S S S S S S S S S
+55  S S S S S S S S S S
+66  S S S S S S S S S S
+77  S S S S S S S S S S
+88  S S S S S S S S S S
+99  S S S S S S S S S S
+TT  S S S S S S S S S S
+
+HEADER:
+COUNT: 19
+
+    A 2 3 4 5 6 7 8 9 10
+05  H H H H H H H H H H
+06  H H H H H H H H H H
+07  H H H H H H H H H H
+08  H H H H H H H H H H
+09  H H D D D D H H H H
+10  H D D D D D D D D H
+11  H D D D D D D D D D
+12  H H H S S S H H H H
+13  H S S S S S H H H H
+14  H S S S S S H H H H
+15  H S S S S S H H H H
+16  H S S S S S H H H H
+17  S S S S S S S S S S
+18  S S S S S S S S S S
+19  S S S S S S S S S S
+20  S S S S S S S S S S
+21  S S S S S S S S S S
+A2  H H H H D D H H H H
+A3  H H H H D D H H H H
+A4  H H H D D D H H H H
+A5  H H H D D D H H H H
+A6  H H D D D D H H H H
+A7  H S D D D D S S H H
+A8  S S S S S S S S S S
+A9  S S S S S S S S S S
+AT  S S S S S S S S S S
+AA  X X X X X X X X X X
+22  H H H X X X X H H H
+33  H H H X X X X H H H
+44  H H H H H H H H H H
+55  H D D D D D D D D H
+66  H H X X X X H H H H
+77  H X X X X X X H H H
+88  X X X X X X X X X X
+99  S X X X X X S X X S
+TT  S S S S S S S S S S
+
+HEADER:
+COUNT: 0
+
+    A 2 3 4 5 6 7 8 9 10
+05  S S S S S S S S S S
+06  S S S S S S S S S S
+07  S S S S S S S S S S
+08  S S S S S S S S S S
+09  S S S S S S S S S S
+10  S S S S S S S S S S
+11  S S S S S S S S S S
+12  S S S S S S S S S S
+13  S S S S S S S S S S
+14  S S S S S S S S S S
+15  S S S S S S S S S S
+16  S S S S S S S S S S
+17  S S S S S S S S S S
+18  S S S S S S S S S S
+19  S S S S S S S S S S
+20  S S S S S S S S S S
+21  S S S S S S S S S S
+A2  S S S S S S S S S S
+A3  S S S S S S S S S S
+A4  S S S S S S S S S S
+A5  S S S S S S S S S S
+A6  S S S S S S S S S S
+A7  S S S S S S S S S S
+A8  S S S S S S S S S S
+A9  S S S S S S S S S S
+AT  S S S S S S S S S S
+AA  S S S S S S S S S S
+22  S S S S S S S S S S
+33  S S S S S S S S S S
+44  S S S S S S S S S S
+55  S S S S S S S S S S
+66  S S S S S S S S S S
+77  S S S S S S S S S S
+88  S S S S S S S S S S
+99  S S S S S S S S S S
+TT  S S S S S S S S S S

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>JRat Configuration</title><link rel="stylesheet" href="static/shiftone.css" type="text/css"/></head><body><div class="header"><h1 class="header">ShiftOne </h1><h2 class="header"><a class="home" href="index.html">Java Runtime Analysis Toolkit</a></h2><a class="header" href="http://sourceforge.net/project/showfiles.php?group_id=41841&amp;package_id=33930">download</a><a class="header" href="http://sourceforge.net/forum/forum.php?forum_id=136869">forum</a><a class="header" href="http://jrat.wiki.sourceforge.net">wiki</a><a class="header" href="http://sourceforge.net/projects/jrat">sf.net</a><a class="header" href="api/index.html">api</a><a class="header" href="lesser.html">license</a></div><div class="content"><h1>JRat Configuration</h1>
+
+    <p>
+        <h2>The Configuration File</h2>
+
+        JRat loads its configuration from a file named
+        <b>jrat.xml</b>
+        in the current directory
+        of your application.
+
+        This file contains system-wide configuration parameters, and also JRat handlers to be
+        configured and assigned to sets of classes and methods.
+
+    </p>
+
+    <p>
+        <h2>The Default File</h2>
+
+        If JRat starts up and can't find it's configuration file, it will create one.
+
+        The default file provides sensible defaults and provides a good sample for new users.
+
+    </p>
+
+    <p>
+        <h2>The XML Format</h2>
+
+        <p>
+            <h3>A Simple Example</h3>
+            The following is is a very simple configuration file.
+
+            <pre class="box">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;jrat&gt;
+    &lt;settings&gt;
+        &lt;property name="httpServerEnabled" value="true"/&gt;
+    &lt;/settings&gt;
+
+    &lt;profile name="my code"&gt;
+
+        &lt;criteria&gt;
+            &lt;include/&gt;
+        &lt;/criteria&gt;
+
+        &lt;handlers&gt;
+
+            &lt;handler factory="org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory"&gt;
+                &lt;property name="outputFile" value="my_code_tree.jrat"/&gt;
+            &lt;/handler&gt;
+
+        &lt;/handlers&gt;
+
+    &lt;/profile&gt;
+&lt;/jrat&gt; </pre>
+        </p>
+        <p>
+            <h3>Settings (Global)</h3>
+        </p>
+        <p>
+            <h3>Profiles</h3>
+            <ul>
+            <li>A profile is a grouping of your application code.</li>
+            <li>A class or method may belong to more than one profile.</li>
+            <li>A class or method's membership in a profile is based on the profile's criteria.</li>
+            <li>A profile may have one or more handlers.</li>
+            </ul>
+
+            Profiles can be given names, however these names are optional and are
+            only used for logging and error messages.
+
+            <p>
+                <h4>Criteria</h4>
+
+                Multiple <b>include</b> and <b>exclude</b> tags may be used to build complex
+                matching criteria.
+
+                A profile matches if the <b>include</b> clauses match and none of the <b>exclude</b>
+                clauses match.
+
+            </p>
+            <p>
+                <h4>Handlers</h4>
+            </p>
+        </p>
+
+    </p>
+
+</div><div class="footer">
+                    Copyright © 2007
+                    <br/>
+                    Generated 9/11/2007 10:44PM</div></body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"/><script type="text/javascript">
+            _uacct = "";
+            urchinTracker();
+            </script><a href="http://sourceforge.net"><img border="0" height="37" width="125" src="http://sourceforge.net/sflogo.php?group_id=41841&amp;type=3"/></a></html>

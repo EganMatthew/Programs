@@ -1,0 +1,149 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package org.shiftone.jrat.core.config;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    import org.shiftone.jrat.core.criteria.*;<a name="line.3"></a>
+<FONT color="green">004</FONT>    import org.shiftone.jrat.util.log.Logger;<a name="line.4"></a>
+<FONT color="green">005</FONT>    import org.shiftone.jrat.util.regex.GlobMatcher;<a name="line.5"></a>
+<FONT color="green">006</FONT>    <a name="line.6"></a>
+<FONT color="green">007</FONT>    import java.util.ArrayList;<a name="line.7"></a>
+<FONT color="green">008</FONT>    import java.util.List;<a name="line.8"></a>
+<FONT color="green">009</FONT>    <a name="line.9"></a>
+<FONT color="green">010</FONT>    <a name="line.10"></a>
+<FONT color="green">011</FONT>    /**<a name="line.11"></a>
+<FONT color="green">012</FONT>     * This class represents the overall configuration of which handlers should be<a name="line.12"></a>
+<FONT color="green">013</FONT>     * associated to which methods/classes.  The MethodCriteria methods on this<a name="line.13"></a>
+<FONT color="green">014</FONT>     * class can be used to determine what classes and methods jrat cares about<a name="line.14"></a>
+<FONT color="green">015</FONT>     * at a high level - perhaps to govern the behavior of injection.<a name="line.15"></a>
+<FONT color="green">016</FONT>     *<a name="line.16"></a>
+<FONT color="green">017</FONT>     * @author jeff@shiftone.org (Jeff Drost)<a name="line.17"></a>
+<FONT color="green">018</FONT>     */<a name="line.18"></a>
+<FONT color="green">019</FONT>    public class Configuration implements MethodCriteria {<a name="line.19"></a>
+<FONT color="green">020</FONT>    <a name="line.20"></a>
+<FONT color="green">021</FONT>        private static final Logger LOG = Logger.getLogger(Configuration.class);<a name="line.21"></a>
+<FONT color="green">022</FONT>        private Settings settings = new Settings();<a name="line.22"></a>
+<FONT color="green">023</FONT>        private AndMethodCriteria methodCriteria = new AndMethodCriteria();<a name="line.23"></a>
+<FONT color="green">024</FONT>        private OrMethodCriteria profilesCriteria = new OrMethodCriteria();<a name="line.24"></a>
+<FONT color="green">025</FONT>        private OrMethodCriteria excludeCriteria = new OrMethodCriteria();<a name="line.25"></a>
+<FONT color="green">026</FONT>        private List profiles = new ArrayList();<a name="line.26"></a>
+<FONT color="green">027</FONT>    <a name="line.27"></a>
+<FONT color="green">028</FONT>    <a name="line.28"></a>
+<FONT color="green">029</FONT>        public Configuration() {<a name="line.29"></a>
+<FONT color="green">030</FONT>    <a name="line.30"></a>
+<FONT color="green">031</FONT>            methodCriteria.addCriteria(profilesCriteria);<a name="line.31"></a>
+<FONT color="green">032</FONT>            methodCriteria.addCriteria(new NotMethodCriteria(excludeCriteria));<a name="line.32"></a>
+<FONT color="green">033</FONT>    //        addClassExclude("bsh.*");<a name="line.33"></a>
+<FONT color="green">034</FONT>    //        addClassExclude("com.sun.*");<a name="line.34"></a>
+<FONT color="green">035</FONT>    //        addClassExclude("EDU.oswego.*");<a name="line.35"></a>
+<FONT color="green">036</FONT>    //        addClassExclude("gnu.*");<a name="line.36"></a>
+<FONT color="green">037</FONT>    //        addClassExclude("org.apache.*");<a name="line.37"></a>
+<FONT color="green">038</FONT>    //        addClassExclude("org.dom4j.*");<a name="line.38"></a>
+<FONT color="green">039</FONT>    //        addClassExclude("org.hsqldb.*");<a name="line.39"></a>
+<FONT color="green">040</FONT>    //        addClassExclude("org.jboss.*");<a name="line.40"></a>
+<FONT color="green">041</FONT>    //        addClassExclude("org.jnp.*");<a name="line.41"></a>
+<FONT color="green">042</FONT>    //        addClassExclude("$Proxy*");<a name="line.42"></a>
+<FONT color="green">043</FONT>            addClassExclude("java.*");<a name="line.43"></a>
+<FONT color="green">044</FONT>            addClassExclude("javax.*");<a name="line.44"></a>
+<FONT color="green">045</FONT>        }<a name="line.45"></a>
+<FONT color="green">046</FONT>    <a name="line.46"></a>
+<FONT color="green">047</FONT>        protected void addClassExclude(String className) {<a name="line.47"></a>
+<FONT color="green">048</FONT>    <a name="line.48"></a>
+<FONT color="green">049</FONT>            LOG.info("exclude " + className);<a name="line.49"></a>
+<FONT color="green">050</FONT>    <a name="line.50"></a>
+<FONT color="green">051</FONT>            excludeCriteria.addCriteria(<a name="line.51"></a>
+<FONT color="green">052</FONT>                    new ClassMatcherMethodCriteria(<a name="line.52"></a>
+<FONT color="green">053</FONT>                            new GlobMatcher(className)<a name="line.53"></a>
+<FONT color="green">054</FONT>                    )<a name="line.54"></a>
+<FONT color="green">055</FONT>            );<a name="line.55"></a>
+<FONT color="green">056</FONT>        }<a name="line.56"></a>
+<FONT color="green">057</FONT>    <a name="line.57"></a>
+<FONT color="green">058</FONT>        protected Profile createProfile() {<a name="line.58"></a>
+<FONT color="green">059</FONT>            Profile profile = new Profile();<a name="line.59"></a>
+<FONT color="green">060</FONT>            profiles.add(profile);<a name="line.60"></a>
+<FONT color="green">061</FONT>            profilesCriteria.addCriteria(profile);<a name="line.61"></a>
+<FONT color="green">062</FONT>            return profile;<a name="line.62"></a>
+<FONT color="green">063</FONT>        }<a name="line.63"></a>
+<FONT color="green">064</FONT>    <a name="line.64"></a>
+<FONT color="green">065</FONT>    <a name="line.65"></a>
+<FONT color="green">066</FONT>        public boolean isMatch(String className, long modifier) {<a name="line.66"></a>
+<FONT color="green">067</FONT>            return methodCriteria.isMatch(className, modifier);<a name="line.67"></a>
+<FONT color="green">068</FONT>        }<a name="line.68"></a>
+<FONT color="green">069</FONT>    <a name="line.69"></a>
+<FONT color="green">070</FONT>        public boolean isMatch(String className, String methodName, String signature, long modifier) {<a name="line.70"></a>
+<FONT color="green">071</FONT>            return methodCriteria.isMatch(className, methodName, signature, modifier);<a name="line.71"></a>
+<FONT color="green">072</FONT>        }<a name="line.72"></a>
+<FONT color="green">073</FONT>    <a name="line.73"></a>
+<FONT color="green">074</FONT>    <a name="line.74"></a>
+<FONT color="green">075</FONT>        protected List getProfiles() {<a name="line.75"></a>
+<FONT color="green">076</FONT>            return profiles;<a name="line.76"></a>
+<FONT color="green">077</FONT>        }<a name="line.77"></a>
+<FONT color="green">078</FONT>    <a name="line.78"></a>
+<FONT color="green">079</FONT>        public Settings getSettings() {<a name="line.79"></a>
+<FONT color="green">080</FONT>            return settings;<a name="line.80"></a>
+<FONT color="green">081</FONT>        }<a name="line.81"></a>
+<FONT color="green">082</FONT>    <a name="line.82"></a>
+<FONT color="green">083</FONT>    }<a name="line.83"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

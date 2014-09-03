@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>What's New</title><link rel="stylesheet" href="static/shiftone.css" type="text/css"/></head><body><div class="header"><h1 class="header">ShiftOne </h1><h2 class="header"><a class="home" href="index.html">Java Runtime Analysis Toolkit</a></h2><a class="header" href="http://sourceforge.net/project/showfiles.php?group_id=41841&amp;package_id=33930">download</a><a class="header" href="http://sourceforge.net/forum/forum.php?forum_id=136869">forum</a><a class="header" href="http://jrat.wiki.sourceforge.net">wiki</a><a class="header" href="http://sourceforge.net/projects/jrat">sf.net</a><a class="header" href="api/index.html">api</a><a class="header" href="lesser.html">license</a></div><div class="content"><h1>What's New</h1>
+
+
+    If you have previously used JRat, you will definitely notice some differences in
+    recent versions.  During JRat's history, it has become clear what features provide
+    the most value, and those features have been focused on.
+
+    <p>
+        <h2>No Injection Step</h2>
+
+        Java 5 has given us JVMPI, which provides a super easy way to hook into
+        a JVM's class loading infrastructure. The result is that you can "install"
+        JRat now with a single command line argument. Nice.
+    </p>
+
+    <p>
+        <h2>File Configuration</h2>
+
+        Previous versions of JRat made extensive use of system properties to control
+        features, though an XML file could be optionally used.
+
+        This model has been replaced with an <b>jrat.xml</b> file that is <i>always</i> used.
+        If this file is not found at statup, a default file will be created and used.
+    </p>
+
+    <p>
+        <h2>No Separate Downloads</h2>
+
+        Previously, it was necessary to download BCEL to use JRat.
+
+        While JRat still depends on several other open source projects (
+        <a href="http://asm.objectweb.org/">ASM</a>
+        and
+        <a href="http://swinglabs.org/">SwingX</a>
+        ),
+        these libraries are now embedded within the JRat jar.  This is done with a fine
+        open source tool called
+        <a href="http://www.tonicsystems.com/products/jarjar/">Jar Jar Links</a>.
+
+    </p>
+
+    <p>
+        <h2>Focus on the TreeHandler</h2>
+
+        The most useful handler has always been the
+        <i>TreeHandler</i>,
+        but several others were implemented as well.
+
+        Much more attention is now being paid to the TreeHandler, which is provides about 90%
+        of JRat's value.
+
+        You can still write your own handlers, or configure multiple handlers, but the
+        TreeHandler has been promoted to first class status.  This is also true of
+    </p>
+    <p>
+        <h2>Focus on Bytecode Instrumentation</h2>
+
+        Bytecode injection is <b>the</b> preferred way to use JRat.
+        Support for programmatic instrumentation and possibly AOP will be phased out.
+    </p>
+
+    <p>
+        <h2>ASM is in, BCEL is out</h2>
+
+        JRat now uses ObjectWeb's ASM library to perform bytecode injection.  ASM fully
+        supports the Java 5 class file format.  
+    </p>
+
+    <p>
+        <h2>HTTP Server</h2>
+
+        While still under active development, the built in HTTP server has been vastly
+        improved upon. It is expected that JRat will begin taking greater advantage of
+        this interface.
+    </p>
+
+    <p>
+        <h2>Output Format</h2>
+        JRat previously produced output (for the TreeHandler) in XML. The XML format has been
+        replaced with a binary (serialization based) format.  At some point in the future it
+        may be possible to export data to XML, HTML, or another format.
+    </p>
+
+
+
+</div><div class="footer">
+                    Copyright © 2007
+                    <br/>
+                    Generated 9/11/2007 10:44PM</div></body><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"/><script type="text/javascript">
+            _uacct = "";
+            urchinTracker();
+            </script><a href="http://sourceforge.net"><img border="0" height="37" width="125" src="http://sourceforge.net/sflogo.php?group_id=41841&amp;type=3"/></a></html>

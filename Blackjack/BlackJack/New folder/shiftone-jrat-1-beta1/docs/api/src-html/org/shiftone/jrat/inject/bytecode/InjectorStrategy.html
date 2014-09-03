@@ -1,0 +1,92 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package org.shiftone.jrat.inject.bytecode;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    <a name="line.3"></a>
+<FONT color="green">004</FONT>    /**<a name="line.4"></a>
+<FONT color="green">005</FONT>     * JRat can swap out bytecode manipulation libraries - each supported library<a name="line.5"></a>
+<FONT color="green">006</FONT>     * must have a InjectorStrategy implementation.<a name="line.6"></a>
+<FONT color="green">007</FONT>     *<a name="line.7"></a>
+<FONT color="green">008</FONT>     * @author jeff@shiftone.org (Jeff Drost)<a name="line.8"></a>
+<FONT color="green">009</FONT>     */<a name="line.9"></a>
+<FONT color="green">010</FONT>    public interface InjectorStrategy {<a name="line.10"></a>
+<FONT color="green">011</FONT>    <a name="line.11"></a>
+<FONT color="green">012</FONT>        /**<a name="line.12"></a>
+<FONT color="green">013</FONT>         * when a class is injected, a magic field is added that contains a comment.<a name="line.13"></a>
+<FONT color="green">014</FONT>         * this field's existance tells the injector that "jrat was here".<a name="line.14"></a>
+<FONT color="green">015</FONT>         */<a name="line.15"></a>
+<FONT color="green">016</FONT>        public static final String METHOD_POSTFIX = "_$jrat";<a name="line.16"></a>
+<FONT color="green">017</FONT>        public static final String HANDLER_PREFIX = "jrat$";<a name="line.17"></a>
+<FONT color="green">018</FONT>        public static final String COMMENT_FIELD_NAME = "$hiftOne_JRat_was_here";<a name="line.18"></a>
+<FONT color="green">019</FONT>    <a name="line.19"></a>
+<FONT color="green">020</FONT>        /**<a name="line.20"></a>
+<FONT color="green">021</FONT>         * this method takes a byte array containing the data of a class, transforms<a name="line.21"></a>
+<FONT color="green">022</FONT>         * the class, and returns a new byte array containing the data of a<a name="line.22"></a>
+<FONT color="green">023</FONT>         * transformed / injected class.<a name="line.23"></a>
+<FONT color="green">024</FONT>         */<a name="line.24"></a>
+<FONT color="green">025</FONT>        byte[] inject(byte[] inputClassData, TransformerOptions options) throws Exception;<a name="line.25"></a>
+<FONT color="green">026</FONT>    }<a name="line.26"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>
