@@ -1,0 +1,1905 @@
+
+Money
+[Data]
+75 14731 8 1.1300000000000001 12921 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray red white 
+white gray white white white white white white white white white white white white white white white white 
+white gray white gray gray gray gray gray gray gray gray gray gray gray gray gray red white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray gray gray gray gray gray gray gray gray gray gray gray gray gray white 
+white gray white white white white white white white white white white white white white white gray white 
+white gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray white 
+white white white white white white white white white white white white white white white white gray white 
+white white white white white gray gray gray gray gray gray gray gray gray gray gray gray white 
+white white white white white gray white white white white white white white white white white white white 
+white white white white white gray gray gray gray gray gray gray gray gray gray gray gray gray 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+[Creep]
+normalboss 2951.0 400 305 
+[Path]
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 97.0 350 385 
+[Path]
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+normalcreep 380.0 400 353 
+[Path]
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 502.0 350 419 
+[Path]
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+normalcreep 470.0 400 383 
+[Path]
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 459.0 400 398 
+[Path]
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 440.0 400 412 
+[Path]
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 238.0 400 450 
+[Path]
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 739.0 389 475 
+[Path]
+12 16
+11 16
+11 15
+11 14
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+normalcreep 688.0 403 475 
+[Path]
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 362.0 418 475 
+[Path]
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+normalcreep 608.0 432 475 
+[Path]
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 14.0 450 224 
+[Path]
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 263.0 450 208 
+[Path]
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 177.0 455 200 
+[Path]
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 263.0 470 200 
+[Path]
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 233.0 484 200 
+[Path]
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 132.0 499 200 
+[Path]
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 281.0 500 213 
+[Path]
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 154.0 500 227 
+[Path]
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+12 16
+11 16
+11 15
+11 14
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+fastcreep 269.0 500 242 
+[Path]
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+12 16
+11 16
+11 15
+11 14
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+fastcreep 296.0 500 256 
+[Path]
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 264.0 500 271 
+[Path]
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+12 16
+11 16
+11 15
+11 14
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+fastcreep 278.0 500 384 
+[Path]
+17 12
+17 11
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 258.0 500 300 
+[Path]
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 380.0 500 317 
+[Path]
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 380.0 500 332 
+[Path]
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 380.0 500 347 
+[Path]
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+12 16
+11 16
+11 15
+11 14
+11 13
+11 12
+11 11
+11 10
+11 9
+11 8
+11 7
+11 6
+11 5
+11 4
+11 3
+10 3
+9 3
+8 3
+7 3
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6 16
+[Path]
+fastcreep 380.0 500 361 
+[Path]
+17 11
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 380.0 500 375 
+[Path]
+17 12
+17 11
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+fastcreep 380.0 500 390 
+[Path]
+17 12
+17 11
+17 10
+17 9
+17 8
+17 7
+17 6
+17 5
+16 5
+15 5
+15 6
+15 7
+15 8
+15 9
+15 10
+15 11
+15 12
+15 13
+15 14
+15 15
+15 16
+14 16
+13 16
+13 15
+13 14
+13 13
+13 12
+13 11
+13 10
+13 9
+13 8
+13 7
+13 6
+13 5
+13 4
+13 3
+13 2
+13 1
+12 1
+11 1
+10 1
+9 1
+8 1
+7 1
+6 1
+5 1
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 14
+4 15
+4 16
+[Path]
+[Creep]
+[Tower]
+splashTower 7 lowest 14 13 
+splashTower 1 lowest 14 11 
+splashTower 1 lowest 14 9 
+normalTower 12 lowest 16 16 
+normalTower 1 lowest 14 15 
+normalTower 1 lowest 16 14 
+normalTower 9 lowest 12 15 
+splashTower 1 lowest 12 12 
+splashTower 1 lowest 12 10 
+normalTower 1 lowest 14 14 
+normalTower 1 lowest 12 14 
+normalTower 1 lowest 12 13 
+normalTower 14 lowest 16 15 
+normalTower 1 lowest 10 15 
+normalTower 1 lowest 10 13 
+normalTower 1 lowest 12 11 
+normalTower 1 lowest 10 11 
+normalTower 1 lowest 10 12 
+normalTower 1 lowest 10 16 
+normalTower 1 lowest 10 14 
+normalTower 1 lowest 7 4 
+normalTower 1 lowest 5 4 
+splashTower 1 lowest 5 5 
+splashTower 1 lowest 5 6 
+splashTower 1 lowest 5 8 
+splashTower 1 lowest 5 11 
+splashTower 1 lowest 5 13 
+splashTower 1 lowest 5 15 
+splashTower 1 lowest 10 10 
+splashTower 1 lowest 10 9 
+splashTower 1 lowest 5 10 
+splashTower 1 lowest 12 8 
+splashTower 14 lowest 8 12 
+splashTower 1 lowest 8 11 
+splashTower 8 lowest 8 10 
+normalTower 1 lowest 11 17 
+normalTower 8 lowest 12 17 
+normalTower 1 lowest 13 17 
+normalTower 8 lowest 14 17 
+normalTower 5 lowest 15 17 
+normalTower 9 lowest 16 13 
+normalTower 1 lowest 16 12 
+normalTower 1 lowest 16 11 
+normalTower 1 lowest 14 8 
+normalTower 1 lowest 14 7 
+normalTower 1 lowest 14 10 
+normalTower 1 lowest 7 15 
+normalTower 1 lowest 7 14 
+normalTower 1 lowest 7 13 
+normalTower 1 lowest 5 12 
+normalTower 1 lowest 5 14 
+splashTower 1 lowest 8 8 
+splashTower 1 lowest 8 9 
+splashTower 1 lowest 8 7 
+splashTower 1 lowest 8 6 
+splashTower 8 lowest 9 12 
+splashTower 1 lowest 9 11 
+splashTower 1 lowest 9 10 
+splashTower 1 lowest 9 9 
+splashTower 1 lowest 9 8 
+splashTower 1 lowest 9 7 
+splashTower 1 lowest 9 6 
+normalTower 1 lowest 16 10 
+normalTower 1 lowest 16 9 
+normalTower 1 lowest 16 8 
+normalTower 1 lowest 10 8 
+normalTower 1 lowest 10 7 
+normalTower 1 lowest 12 7 
+normalTower 1 lowest 12 9 
+splashTower 1 lowest 9 15 
+splashTower 1 lowest 9 14 
+splashTower 8 lowest 9 13 
+splashTower 1 lowest 8 13 
+splashTower 1 lowest 8 14 
+splashTower 1 lowest 8 15 
+normalTower 5 lowest 18 16 
+normalTower 1 lowest 18 15 
+normalTower 1 lowest 18 14 
+normalTower 1 lowest 18 13 
+normalTower 1 lowest 18 12 
+normalTower 1 lowest 18 11 
+normalTower 1 lowest 18 9 
+normalTower 1 lowest 18 10 
+normalTower 1 lowest 18 8 
+splashTower 1 lowest 19 16 
+splashTower 1 lowest 19 15 
+splashTower 1 lowest 19 14 
+splashTower 1 lowest 19 13 
+splashTower 1 lowest 19 12 
+splashTower 1 lowest 19 11 
+splashTower 1 lowest 14 12 
+splashTower 1 lowest 14 6 
+splashTower 1 lowest 10 6 
+splashTower 1 lowest 10 5 
+splashTower 1 lowest 9 5 
+splashTower 1 lowest 8 5 
+normalTower 1 lowest 10 4 
+normalTower 1 lowest 9 4 
+normalTower 1 lowest 8 4 
+normalTower 1 lowest 7 5 
+normalTower 1 lowest 7 6 
+normalTower 1 lowest 7 7 
+normalTower 1 lowest 7 8 
+normalTower 1 lowest 7 9 
+normalTower 1 lowest 7 10 
+normalTower 1 lowest 7 11 
+normalTower 1 lowest 7 12 
+normalTower 1 lowest 16 7 
+normalTower 1 lowest 16 6 
+normalTower 1 lowest 18 7 
+normalTower 1 lowest 18 6 
+normalTower 1 lowest 18 5 
+normalTower 1 lowest 18 4 
+normalTower 1 lowest 17 4 
+normalTower 1 lowest 16 4 
+normalTower 1 lowest 15 4 
+normalTower 1 lowest 14 4 
+normalTower 1 lowest 14 5 
+splashTower 1 lowest 12 6 
+splashTower 1 lowest 12 5 
+splashTower 1 lowest 12 4 
+splashTower 1 lowest 2 15 
+splashTower 1 lowest 2 14 
+splashTower 1 lowest 2 13 
+splashTower 1 lowest 2 11 
+splashTower 1 lowest 2 12 
+splashTower 1 lowest 2 10 
+splashTower 1 lowest 2 9 
+splashTower 1 lowest 2 8 
+splashTower 1 lowest 2 7 
+splashTower 1 lowest 2 6 
+splashTower 1 lowest 2 5 
+splashTower 1 lowest 2 4 
+splashTower 1 lowest 2 3 
+splashTower 1 lowest 2 2 
+splashTower 1 lowest 2 1 
+splashTower 1 lowest 2 0 
+normalTower 1 lowest 3 15 
+normalTower 1 lowest 3 14 
+normalTower 1 lowest 3 13 
+normalTower 1 lowest 3 12 
+normalTower 1 lowest 3 11 
+normalTower 1 lowest 3 10 
+normalTower 1 lowest 3 9 
+normalTower 1 lowest 3 8 
+normalTower 1 lowest 3 7 
+normalTower 1 lowest 3 6 
+normalTower 1 lowest 3 5 
+normalTower 1 lowest 3 4 
+normalTower 1 lowest 3 3 
+normalTower 1 lowest 3 2 
+normalTower 1 lowest 3 1 
+normalTower 1 lowest 3 0 
+normalTower 1 lowest 4 0 
+normalTower 1 lowest 5 0 
+normalTower 1 lowest 6 0 
+normalTower 1 lowest 7 0 
+normalTower 1 lowest 8 0 
+normalTower 1 lowest 9 0 
+normalTower 1 lowest 10 0 
+normalTower 1 lowest 11 0 
+normalTower 1 lowest 12 0 
+normalTower 1 lowest 13 0 
+normalTower 1 lowest 14 0 
+normalTower 1 lowest 14 1 
+normalTower 1 lowest 14 2 
+normalTower 1 lowest 14 3 
+normalTower 1 lowest 12 3 
+normalTower 1 lowest 12 2 
+normalTower 1 lowest 11 2 
+normalTower 1 lowest 10 2 
+normalTower 1 lowest 9 2 
+normalTower 1 lowest 8 2 
+normalTower 1 lowest 7 2 
+normalTower 1 lowest 5 2 
+normalTower 1 lowest 6 2 
+normalTower 1 lowest 5 3 
+normalTower 1 lowest 5 7 
+normalTower 1 lowest 5 9 
+splashTower 1 lowest 15 3 
+splashTower 1 lowest 17 3 
+splashTower 1 lowest 16 3 
+splashTower 1 lowest 18 3 
+splashTower 1 lowest 19 3 
+splashTower 1 lowest 19 4 
+splashTower 1 lowest 19 5 
+splashTower 1 lowest 19 6 
+splashTower 1 lowest 19 7 
+splashTower 1 lowest 19 8 
+splashTower 1 lowest 19 9 
+splashTower 1 lowest 19 10 
+splashTower 1 lowest 15 2 
+splashTower 1 lowest 15 1 
+splashTower 1 lowest 15 0 
+splashTower 1 lowest 7 16 
+splashTower 1 lowest 8 16 
+splashTower 1 lowest 9 16 
+splashTower 1 lowest 9 17 
+splashTower 1 lowest 10 17 
+splashTower 1 lowest 8 17 
+splashTower 1 lowest 7 17 
+splashTower 1 lowest 5 17 
+splashTower 1 lowest 6 17 
+splashTower 1 lowest 5 16 
+splashTower 1 lowest 4 17 
+splashTower 1 lowest 3 17 
+splashTower 1 lowest 3 16 
+splashTower 1 lowest 2 16 
+splashTower 1 lowest 2 17 
+splashTower 1 lowest 16 2 
+splashTower 1 lowest 17 2 
+splashTower 1 lowest 18 2 
+splashTower 1 lowest 19 2 
+splashTower 1 lowest 20 2 
+splashTower 1 lowest 20 3 
+splashTower 1 lowest 20 4 
+splashTower 1 lowest 20 5 
+splashTower 1 lowest 20 6 
+splashTower 1 lowest 20 7 
+splashTower 1 lowest 20 8 
+splashTower 1 lowest 20 9 
+splashTower 1 lowest 20 10 
+splashTower 1 lowest 20 11 
+splashTower 1 lowest 20 13 
+splashTower 1 lowest 20 12 
+splashTower 1 lowest 20 14 
+splashTower 1 lowest 20 15 
+splashTower 1 lowest 20 16 
+[Tower]
+
+[Map]
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white red gray gray gray gray gray gray gray gray gray gray gray gray gray 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+
+[Map]
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white red gray white white white white white white white white white white white 
+white white white white white white gray gray gray gray gray gray gray gray gray gray gray white 
+white white white white white white white white white white white white white white white white gray white 
+white white white white white white white gray gray gray gray gray gray gray gray gray gray white 
+white white white white white white white gray white white white white white white white white white white 
+white white white white white white white gray white white white white white white white white white white 
+white white white white white white white gray gray gray gray gray gray gray gray gray gray gray 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+
+[Map]
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray red white 
+white gray white white white white white white white white white white white white white white white white 
+white gray white gray gray gray gray gray gray gray gray gray gray gray gray gray red white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray white white white white white white white white white white white white white white 
+white gray white gray gray gray gray gray gray gray gray gray gray gray gray gray gray white 
+white gray white white white white white white white white white white white white white white gray white 
+white gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray gray white 
+white white white white white white white white white white white white white white white white gray white 
+white white white white white gray gray gray gray gray gray gray gray gray gray gray gray white 
+white white white white white gray white white white white white white white white white white white white 
+white white white white white gray gray gray gray gray gray gray gray gray gray gray gray gray 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 
+white white white white white white white white white white white white white white white white white white 

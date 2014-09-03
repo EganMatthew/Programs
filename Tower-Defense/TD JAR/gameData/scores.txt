@@ -1,0 +1,8 @@
+
+5738181 ---- aries
+265 ---- aries
+215 ---- mammoth
+70 ---- mammoth
+60 ---- mammoth
+30 ---- mammoth
+10 ---- mammoth
