@@ -1,1 +1,0 @@
-jar cfm Pong.jar myManifest.txt Pong.class x.class y.class z.class tile.png tile2.png
